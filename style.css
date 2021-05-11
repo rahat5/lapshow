@@ -83,7 +83,7 @@ img {max-width: 100%;}
   padding: .5rem 0;
   border-bottom: 1px solid var(--gray);
   background: var(--gray-light);
-  box-shadow: 0 1px 6px var(--dark);
+  box-shadow: 0 1px 4px var(--gray);
   position: fixed;
   top: 0;
   left: 0;
