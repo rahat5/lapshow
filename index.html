@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="shortcut icon" href="favicon.png">
+  <title>Lapshow - Buy your desired laptop</title>
+</head>
+<body id="top">
+  <!-- ## navigation bar -->
+  <nav id="navbar">
+    <div class="container flex-sb">
+      <div class="resp-navbar flex-sb">
+        <a href="#top" class="logo"><img src="./img/logo-dark.svg" alt="logo"></a>
+        <div class="toggler">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      
+      <div class="nav-links-container">
+        <ul class="nav-links flex-sb">
+          <li><a href="#features" class="actives">Features</a></li>
+          <li><a href="#specification">Specification</a></li>
+          <!-- <li><a href="#">Gallery</a></li> -->
+          <li><a href="#testimonial">Reviews</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ## showcase -->
+  <section id="showcase">
+    <div class="container flex-sb">
+      <div class="info-col">
+        <h1>Lapto Probook 3</h1>
+        <p class="lead">Do whatever you can imagine! The only laptop for your everyday task. It's cutting edged, eye friendly & made for professionals.</p>
+        <a href="#" class="btn">Buy Now</a>
+        <a href="#specification" class="btn text-btn">Specification <i class="fas fa-arrow-down"></i></a>
+      </div>
+
+      <div class="img-col dots">
+        <img src="./img/laptop-white.jpg" alt="Laptop" class="img">
+      </div>
+    </div>
+  </section>
+
+  <!-- ## features -->
+  <section id="features">
+    <h2 class="section-h2">Features</h2>
+    <div class="container">
+      <div class="card">
+        <img src="./img/infinity-display-2.jpg" alt="infinity display">
+        <div class="info">
+          <h3>Infinity Display</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempora quod sed corporis vitae sint atque. Itaque quia ad molestiae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, error.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="./img/laptop-nature.jpg" alt="man working with laptop on a hill">
+        <div class="info">
+          <h3>Long Battery</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempora quod sed corporis vitae sint atque. Itaque quia ad molestiae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, error.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="./img/slim-laptop.jpg" alt="slim laptop">
+        <div class="info">
+          <h3>Ultra slim</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempora quod sed corporis vitae sint atque. Itaque quia ad molestiae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, error.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="specification">
+    <h2 class="section-h2">Specification</h2>
+    <div class="container">
+      <div class="tab-btns">
+        <button class="active" data-id="basic-spec-container">Basic</button>
+        <button data-id="pro-spec-container">Pro</button>
+      </div>
+
+      <div class="collapsible-wrapper">
+        <div class="spec-container active" id="basic-spec-container">
+          <div class="spec">
+            <h3><i class="fas fa-desktop"></i> Display</h3>
+            <p>13.3 inch</p>
+          </div>
+          <div class="spec">
+            <h3><i class="fas fa-hdd"></i> Memory</h3>
+            <p>16gb Ram, 256gb SSD</p>
+          </div>
+          <div class="spec">
+            <h3><i class="fas fa-microchip"></i> Processor</h3>
+            <p>Intel ddr4 - 9th gen</p>
+          </div>
+          <div class="spec">
+            <h3><i class="fab fa-windows"></i> Operating System</h3>
+            <p>Windows 10 Home</p>
+          </div>
+          <div class="spec">
+            <h3><i class="fas fa-weight"></i> Weight</h3>
+            <p>790 gram</p>
+          </div>
+          <div class="spec">
+            <h3><i class="fas fa-dollar-sign"></i> Price</h3>
+            <p>800 USD</p>
+          </div>
+        </div>
+        <!-- End of spec container -->
+        
+        <div class="spec-container" id="pro-spec-container">
+          <div class="spec">
+            <h3><i class="fas fa-desktop"></i> Display</h3>
+            <p>14.0 inch</p>
+          </div>
+          <div class="spec">
+            <h3><i class="fas fa-hdd"></i> Memory</h3>
+            <p>32gb Ram, 512gb SSD</p>
+          </div>
+          <div class="spec">
+            <h3><i class="fas fa-microchip"></i> Processor</h3>
+            <p>Intel ddr4 - 10th gen</p>
+          </div>
+          <div class="spec">
+            <h3><i class="fab fa-windows"></i> Operating System</h3>
+            <p>Windows 10 Pro</p>
+          </div>
+          <div class="spec">
+            <h3><i class="fas fa-weight"></i> Weight</h3>
+            <p>850 gram</p>
+          </div>
+          <div class="spec">
+            <h3><i class="fas fa-dollar-sign"></i> Price</h3>
+            <p>1100 USD</p>
+          </div>
+        </div>
+        <!-- End of spec container -->
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial">
+    <h2 class="section-h2">Happy customer reviews</h2>
+    <div class="container">
+      <div class="swiper-container">
+        <!-- all slides -->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide card">
+            <i class="fas fa-quote-left"></i>
+            <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis praesentium maxime cupiditate. Nam autem consectetur quos deserunt corrupti ipsam.</q>
+            <div class="quote-from">
+              <p>William Anderson 1</p>
+              <p>Web designer</p>
+            </div>
+          </div>
+          
+          <div class="swiper-slide card">
+            <i class="fas fa-quote-left"></i>
+            <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis praesentium maxime cupiditate. Nam autem consectetur quos deserunt corrupti ipsam.</q>
+            <div class="quote-from">
+              <p>Jeff Peter</p>
+              <p>Web developer</p>
+            </div>
+          </div>
+          
+          <div class="swiper-slide card">
+            <i class="fas fa-quote-left"></i>
+            <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis praesentium maxime cupiditate. Nam autem consectetur quos deserunt corrupti ipsam.</q>
+            <div class="quote-from">
+              <p>Sofia Teleris</p>
+              <p>Graphic Designer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- End of swiper container -->
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="container flex-sb">
+      <div class="col">
+        <h3>Contact Us</h3>
+        <address>
+          <p>2972 Westheimer Rd. <br>Santa Ana, Illinois 85486</p>
+          <p>+999 786 123</p>
+          <p>lapto@gmail.com</p>
+        </address>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <h3>Store</h3>
+        <ul>
+          <li><a href="#">Cairo Branch</a></li>
+          <li><a href="#">London Branch</a></li>
+          <li><a href="#">Dhaka Branch</a></li>
+          <li><a href="#">Chittagong Branch</a></li>
+        </ul>
+      </div>
+      
+      <div class="col">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">Magazine</a></li>
+          <li><a href="#">Refund</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Policy</a></li>
+        </ul>
+      </div>
+     
+      <div class="col">
+        <h3>Subscribe</h3>
+        <!-- <p>Get </p> -->
+        <form>
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <input type="submit" value="Send" class="btn">
+        </form>
+      </div>
+    </div>
+  </footer>
+
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://kit.fontawesome.com/2ccb5723b2.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
